@@ -19,3 +19,5 @@ void loop() {
     irrecv.resume(); // Receive the next value
   }
 }
+
+//open serial monitor for note key values
