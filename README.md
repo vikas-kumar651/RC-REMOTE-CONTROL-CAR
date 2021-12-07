@@ -8,5 +8,7 @@ components required:
  : base of car with 3 wheels 
  
  important link:
+ Working of L298N motor driver:
  https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/
+ 
  
