@@ -1,6 +1,0 @@
-First of all connect 2 BO-MOTOR with car base..
-Now connect motor with L298N motor Driver...
-Now connect Arduino and L298N motor driver with Jumper wires...
-Now first of all note Value of IR remote keys with help of arduino
-then Put that values in Main code in switch case..
-

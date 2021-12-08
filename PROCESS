@@ -1,0 +1,28 @@
+Components Required:   Arduino Uno : L298N motor driver : IR receiver : Jumper Wire : 9 volt battery & 2 BO MOTOR : base of car with 3 wheels
+
+                               ****  FOLLOW these instructions for making ir remote car ********
+                               
+:: First of all connect 2 BO-MOTOR with car base..
+:: Now connect motor with L298N motor Driver...
+   * L298N motor driver has 4 OUTPUT pins, so you can control 2 BO Motor.
+   * So now connect out1 & out2 with Motor 1 and out3 & out4 with Motor 2.
+  
+:: Now connect Arduino and L298N motor driver with Jumper wires...
+   * L298N motor driver has 4 INPUT pins, connect these pins by Arduino digital pins.
+   * in1 & in2 for motor 1 and in3 & in4 for motor 2.
+::  Now connect IR receiver with arduino
+   * ir receiver has 3 pins ( ground, signal, power {+5 volt})
+   
+:: Now first of all note Value of IR remote keys with help of arduino(code is given).
+
+:: then Put that values in Main code in switch case..
+
+
+
+IMPORTANT INSTRUCTIONS:
+1: if you want to control speed of car than connect L298N motor driver PIN ENA & ENB with arduino PWM pin,than you can control speed by varying
+   PWM pin value. 
+2: The L298N module can drive DC motors that have voltages between 5 and 35V, but if voltage is <12 than you can use +5volt for 5 volt output 
+   and by use of this you can charge Arduino.
+
+
